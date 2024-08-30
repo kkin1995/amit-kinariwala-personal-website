@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amit Kinariwala - Senior Technology Leader and Entrepreneur with over three decades of experience in startups and innovative projects.">
+    <title>Amit Kinariwala - Technology Leader & Entrepreneur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        :root {
+            --bs-primary: #3B82F6;
+            --bs-secondary: #1E40AF;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, var(--bs-primary), var(--bs-secondary));
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: var(--bs-primary);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            bottom: -10px;
+            left: 25%;
+            background-color: var(--bs-primary);
+        }
+        
+        .experience-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .experience-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .skill-tag {
+            transition: transform 0.3s ease;
+        }
+        
+        .skill-tag:hover {
+            transform: scale(1.05);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fadeInUp {
+            animation: fadeInUp 0.6s ease-out;
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-53KWF9E97W"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-53KWF9E97W');
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Amit Kinariwala</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="gradient-bg text-white py-5 mt-5">
+        <div class="container text-center py-5">
+            <h1 class="display-4 fw-bold mb-3 animate-fadeInUp">Amit Kinariwala</h1>
+            <p class="lead animate-fadeInUp" style="animation-delay: 0.2s;">Technology Leader & Entrepreneur</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">About Me</h2>
+                <p class="lead text-center mb-0 animate-fadeInUp">
+                    Senior Management Professional with broad based experience and specific focus in Profit centres, General Management, Global Delivery models, Quality driven processes, Business Development, setting up and managing Operations. With a career spanning over three decades, I've led multiple successful startups and innovative projects in the technology sector.
+                </p>
+            </div>
+        </section>
+
+        <section id="experience" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Experience</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp">
+                            <div class="card-body">
+                                <h5 class="card-title">Co-Founder & CTO</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Medeva.io | Feb 2019 - Present</h6>
+                                <p class="card-text">Medeva is a tool for clinicians by clinicians. Helping doctors capture and utilize patient health information, collaborate with other doctors, and introduce evidence-based care.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.2s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Co-Founder & CTO</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">RYTLE | Jan 2018 - Jun 2022</h6>
+                                <p class="card-text">Developed Last Mile delivery solutions for the on-demand world of tomorrow.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Co-Founder and CEO</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">trakRYT Pte Ltd | Mar 2015 - Dec 2017</h6>
+                                <p class="card-text">Led the development of a Cloud-based real-time, personalized consumer mobile engagement platform utilizing IoT technology, Big Data, and Analytics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Skills</h2>
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <span class="badge bg-primary p-2 skill-tag">Scalability</span>
+                    <span class="badge bg-primary p-2 skill-tag">Start-ups</span>
+                    <span class="badge bg-primary p-2 skill-tag">IT Strategy</span>
+                    <span class="badge bg-primary p-2 skill-tag">Entrepreneurship</span>
+                    <span class="badge bg-primary p-2 skill-tag">Offshoring</span>
+                    <span class="badge bg-primary p-2 skill-tag">Product Development</span>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="gradient-bg text-white py-5">
+            <div class="container text-center">
+                <h2 class="section-title mb-4">Get In Touch</h2>
+                <p class="mb-4">Interested in collaborating or learning more about my work? Feel free to reach out!</p>
+                <button id="contact-button" class="btn btn-light btn-lg mb-3">Contact Me</button>
+                <p class="small">(This will open your default email client or a new tab)</p>
+                <p class="mt-3">Or copy this email address: <span id="display-email">Loading...</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Amit Kinariwala. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var contactButton = document.getElementById('contact-button');
+            var displayEmail = document.getElementById('display-email');
+            
+            function decodeEmail(encodedEmail) {
+                return encodedEmail.split('').reverse().join('');
+            }
+            
+            var encodedEmail = 'moc.alawiranik@tima';
+            var decodedEmail = decodeEmail(encodedEmail);
+            
+            if (displayEmail) {
+                displayEmail.textContent = decodedEmail;
+            }
+            
+            if (contactButton) {
+                contactButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var mailtoLink = 'mailto:' + decodedEmail;
+                    // Google Analytics event tracking
+                    gtag('event', 'contact_button_click', {
+                        'event_category': 'engagement',
+                        'event_label': 'Contact Button Clicked'
+                    });
+                    window.open(mailtoLink, '_blank');
+                });
+            } else {
+                console.error('Contact button not found');
+            }
+        });
+    </script>
+</body>
+</html>
