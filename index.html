@@ -4,102 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Amit Kinariwala - Senior Technology Leader and Entrepreneur with over three decades of experience in startups and innovative projects.">
-    <title>Amit Kinariwala - Technology Leader & Entrepreneur</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-        
-        :root {
-            --bs-primary: #3B82F6;
-            --bs-secondary: #1E40AF;
-        }
-        
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        .gradient-bg {
-            background: linear-gradient(135deg, var(--bs-primary), var(--bs-secondary));
-        }
-        
-        .nav-link {
-            position: relative;
-            transition: color 0.3s ease;
-        }
-        
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: -5px;
-            left: 0;
-            background-color: var(--bs-primary);
-            transition: width 0.3s ease;
-        }
-        
-        .nav-link:hover::after {
-            width: 100%;
-        }
-        
-        .section-title {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            width: 50%;
-            height: 3px;
-            bottom: -10px;
-            left: 25%;
-            background-color: var(--bs-primary);
-        }
-        
-        .experience-item {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .experience-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-        
-        .skill-tag {
-            transition: transform 0.3s ease;
-        }
-        
-        .skill-tag:hover {
-            transform: scale(1.05);
-        }
-        
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        .animate-fadeInUp {
-            animation: fadeInUp 0.6s ease-out;
-        }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-53KWF9E97W"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <meta name="author" content="Amit Kinariwala">
+    <meta name="keywords" content="Technology Leader, Entrepreneur, IoT, Big Data, Cloud Solutions, Startups, Business Development, Operations Management">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' https://www.googletagmanager.com https://cdn.jsdelivr.net;
+    style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline';
+    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com;
+    img-src 'self' data:;
+    connect-src 'self' https://www.google-analytics.com;
+">
 
-        gtag('config', 'G-53KWF9E97W');
-    </script>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.amitkinariwala.com/">
+    <meta property="og:title" content="Amit Kinariwala - Technology Leader & Entrepreneur">
+    <meta property="og:description" content="Senior Technology Leader and Entrepreneur with over three decades of experience in startups and innovative projects.">
+    <title>Amit Kinariwala - Technology Leader & Entrepreneur</title>
+    <link rel="canonical" href="https://www.amitkinariwala.com/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+ 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-53KWF9E97W"></script>
 </head>
 <body>
+    <div id="cookie-consent" class="cookie-banner" style="display: none;">
+        <p>This website uses cookies to ensure you get the best experience on our website.</p>
+        <button id="accept-cookies">Accept</button>
+      </div>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">Amit Kinariwala</a>
@@ -109,7 +45,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#experience">Experience</a>
@@ -136,9 +72,32 @@
         <section id="about" class="py-5">
             <div class="container">
                 <h2 class="section-title text-center mb-5">About Me</h2>
-                <p class="lead text-center mb-0 animate-fadeInUp">
-                    Senior Management Professional with broad based experience and specific focus in Profit centres, General Management, Global Delivery models, Quality driven processes, Business Development, setting up and managing Operations. With a career spanning over three decades, I've led multiple successful startups and innovative projects in the technology sector.
-                </p>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <p class="lead mb-4 animate-fadeInUp">
+                            With over three decades of experience in the technology sector, I am a seasoned Senior Management Professional and serial entrepreneur. My career spans a diverse range of roles, from co-founding innovative startups to leading established organizations.
+                        </p>
+                        <p class="animate-fadeInUp" style="animation-delay: 0.2s;">
+                            As a technology leader, I've spearheaded projects in cutting-edge fields such as IoT, Big Data analytics, and cloud-based solutions. My expertise lies in:
+                        </p>
+                        <ul class="list-unstyled animate-fadeInUp" style="animation-delay: 0.3s;">
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Driving profit centers and general management</li>
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Implementing global delivery models</li>
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Developing quality-driven processes</li>
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Leading business development initiatives</li>
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Establishing and managing operations</li>
+                        </ul>
+                        <p class="mt-4 animate-fadeInUp" style="animation-delay: 0.4s;">
+                            I've had the privilege of co-founding and leading companies like Medeva.io, where we're revolutionizing healthcare information management, and RYTLE, where we developed last-mile delivery solutions for the on-demand economy.
+                        </p>
+                        <p class="animate-fadeInUp" style="animation-delay: 0.5s;">
+                            My experience also includes significant roles such as Managing Director & CEO at Everett India, where I expanded the company's reach across India, South East Asia, the Middle East, and Africa. As COO at LG CNS Global, I grew the Product Engineering and Oracle Apps practice for various international clients.
+                        </p>
+                        <p class="animate-fadeInUp" style="animation-delay: 0.6s;">
+                            I'm passionate about leveraging technology to solve complex business challenges and am always eager to explore new opportunities for innovation and growth in the ever-evolving tech landscape.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -173,6 +132,110 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Managing Director & CEO</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Everett India | Sep 2008 - Dec 2014</h6>
+                                <p class="card-text">Recruited to setup the Subsidiary of European Boutique Consulting firm in Identity and Access Management in India. Leading the Everett business for India, South East Asia, Middle East, Africa. Responsible for offshore delivery of European Projects, business operations, including sales, marketing, financial and business goals.
+
+                                    Worked with Senior stakeholders in Europe to create and manage the roadmap to develop Continuous Delivery & DevOps platform, tools, technologies and processes.
+                                    
+                                    Managed Global teams (multi-site) and stakeholders.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Chief Operating Officer</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">LG CNS Global | Oct 2004 - Aug 2008</h6>
+                                <p class="card-text">Chief Operating Officer with broad based experience in P&L / General Management, Delivery, Quality, Business Development and Operations.
+
+                                    Setup and grew the Product Engineering and Oracle Apps practice for various Europe, USA and India customers.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Head - Enterprise Technologies</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">LG Soft India | Aug 1998 - Sep 2004</h6>
+                                <p class="card-text">Started the Enterprise Technology Group focussing on US and European Customers.
+
+                                    Responsible for setting up LG's IT operations in India.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Head - Technology</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">LG Commerznow | Feb 2000 - Jan 2001</h6>
+                                <p class="card-text">Developed India’s first ecommerce payment gateway. Successfully integrated Gateway with Citibank, ICICI, HDFC, Federal Bank, Global Trust bank</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Head - IT</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">LG Electronics | Apr 1998 - Jan 2000</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Manager - Technical</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Empower Corporation | Sep 1997 - Mar 1998</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Manager - Software Development</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">ORG-MARG | Jun 1996 - Aug 1997</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Independent Consultant</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Planet Software | Sep 1992 - Dec 1995</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Independent Consultant</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Hindustan Unilever | Jan 1993 - Nov 1994</h6>
+                                <p class="card-text">Independent consultant from Planet Software</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 experience-item animate-fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="card-body">
+                                <h5 class="card-title">Systems Executive</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">RJK Group of Industries | Nov 1986 - May 1992</h6>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -190,6 +253,9 @@
                 </div>
             </div>
         </section>
+
+        <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
         <section id="contact" class="gradient-bg text-white py-5">
             <div class="container text-center">
                 <h2 class="section-title mb-4">Get In Touch</h2>
@@ -208,37 +274,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var contactButton = document.getElementById('contact-button');
-            var displayEmail = document.getElementById('display-email');
-            
-            function decodeEmail(encodedEmail) {
-                return encodedEmail.split('').reverse().join('');
-            }
-            
-            var encodedEmail = 'moc.alawiranik@tima';
-            var decodedEmail = decodeEmail(encodedEmail);
-            
-            if (displayEmail) {
-                displayEmail.textContent = decodedEmail;
-            }
-            
-            if (contactButton) {
-                contactButton.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    var mailtoLink = 'mailto:' + decodedEmail;
-                    // Google Analytics event tracking
-                    gtag('event', 'contact_button_click', {
-                        'event_category': 'engagement',
-                        'event_label': 'Contact Button Clicked'
-                    });
-                    window.open(mailtoLink, '_blank');
-                });
-            } else {
-                console.error('Contact button not found');
-            }
-        });
-    </script>
+    <script src="analytics.js"></script>
+    <script src="cookie_consent.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
